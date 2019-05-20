@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <gantt-elastic :resources="resources" :tasks="tasks" :options="options">
+    <gantt-elastic :tasks="tasks" :resources="resources" :options="options">
       <gantt-elastic-header slot="header"></gantt-elastic-header>
       <gantt-elastic-footer slot="footer"></gantt-elastic-footer>
     </gantt-elastic>
